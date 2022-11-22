@@ -1,0 +1,11 @@
+<template>
+    <div>
+        <p>Status: {statusIcon}</p>
+        <pre>Logs: {displayedLogs}</pre>
+        <div>Starting: {isListening}</div>
+        <button onclick={start}>Start</button>
+        <button onclick={end}>End</button>
+        <audio></audio>
+        <video></video>
+    </div>
+</template>
